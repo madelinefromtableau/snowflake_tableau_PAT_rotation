@@ -39,7 +39,7 @@ Filter results for Snowflake connections by checking auth type is username/passw
 For each data source, get the connection ID used to authenticate:
 
 ```bash
-GET /api/{version}/sites/{site-id}/datasources/{datasource-id}/connections?filter=authenticationType:eq:Username+Password
+GET /api/{version}/sites/{site-id}/datasources/{datasource-id}/connections
 ```
 
 Store the data source IDs and Connection IDs.
