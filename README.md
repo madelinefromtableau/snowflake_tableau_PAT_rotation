@@ -87,3 +87,4 @@ for ds in snowflake_datasources:
 - Test with one data source before batch updating
 - Server name, port, username, password are required. The Snowflake port is 443. Embed flag and query tag are not required.
 - For embedded datasources, use **Update Workbook Connection** method
+- These are the same methods that can be used for token rotation when needed.
